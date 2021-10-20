@@ -81,10 +81,11 @@
 
         <View style="@style/proifleDetailsView" />
         <RelativeLayout style="@style/profileDetailsLayout">
+
             <ImageView
                 android:id="@+id/addressImageView"
-                android:src="@drawable/ic_address"
-                style="@style/profileDetailsImage" />
+                style="@style/profileDetailsImage"
+                android:src="@drawable/ic_address" />
 
             <TextView
                 android:text="Cidade"
